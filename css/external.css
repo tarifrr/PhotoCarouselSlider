@@ -1,0 +1,35 @@
+		cite{
+
+			position: fixed;
+			bottom: 10;
+			left: 0;
+
+		}
+
+		.gallery{
+
+			
+			position: relative;
+			width: 30%;
+			height: 30%;
+			background: url('../images/matte.jpg');
+			margin-left: 10%;
+		}
+
+		.gallery img{
+
+			border: 1px solid red;
+			opacity: 0;
+			top: 3%;
+			position: fixed;
+			transition: opacity 2s ease-in-out;
+		}
+
+		.gallery input[type="image"]{
+			
+			position: relative;
+			left: 45%;
+			top: 100%;
+
+		}
+		
